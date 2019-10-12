@@ -2,7 +2,7 @@
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://drpratik.github.io/react-news-app",
+  "homepage": "https://drpratik.github.io/react-app",
   "dependencies": {
     "axios": "^0.19.0",
     "react": "^16.10.2",
