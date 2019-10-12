@@ -6,7 +6,7 @@ const App = ()=>{
  
   const [searchquery,setsearchquery] = useState('react') 
  
-  const [url,seturl] = useState('http://hn.algolia.com/api/v1/search?query=react')
+  const [url,seturl] = useState('https://hn.algolia.com/api/v1/search?query=react')
  
   const [loading,setloading] = useState(false);
  
@@ -28,7 +28,7 @@ const App = ()=>{
  
   const handleSubmit = e => {
     e.preventDefault()
-    seturl(`http://hn.algolia.com/api/v1/search?query=${searchquery}`)
+    seturl(`https://hn.algolia.com/api/v1/search?query=${searchquery}`)
   }
   const showLoading = () => (loading ? <h2>Loading</h2>:"")
 
