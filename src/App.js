@@ -34,8 +34,8 @@ const App = ()=>{
 
   const searchForm = () => (
     <form onSubmit={handleSubmit}>
-        <input type='text' value={searchquery} onChange={handleChange}/>
-        <button>Search</button>
+        <input type='text' width="8" value={searchquery} onChange={handleChange}/>
+        <button class="btn btn-success">Search</button>
       </form>
   );
 
